@@ -4,7 +4,7 @@
 System Requirement Specification for WatcherWatcher 
 
 # Introduction
-WaterWatcher is a slef-made smarthome solution to prevent the smart house from becoming a flooded house due to an unnoticed broken pipe. 
+WaterWatcher is a self-made smarthome solution to prevent the smart house from becoming a flooded house due to an unnoticed broken pipe. 
 
 ## Goals
 The goals are: 
