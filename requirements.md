@@ -4,14 +4,14 @@
 System Requirement Specification for WatcherWatcher 
 
 # Introduction
-WaterWatcher is a slef-made smarthome solution to prevent the smart house from becoming a flooded house due to unnoticed broken pipe. 
+WaterWatcher is a slef-made smarthome solution to prevent the smart house from becoming a flooded house due to an unnoticed broken pipe. 
 
 ## Goals
-The goals are 
+The goals are: 
   * Reliable & safe - You want it to protect your house, right?
-  * Secure - No one else should know your water consumption of no-at-hoem times.
-  * Effective - In case of a broken pipe an alarm-eMail won't do the job. 
-  * Fun - Therefore this project will serve as my private software engineering learning dojo.  
+  * Secure - No one else should know your water consumption or none-at-home times.
+  * Effective - In case of a broken pipe an alarm-eMail won't do the job. It shall close the main water supply. 
+  * Fun - Therefore this project will serve as my private software engineering learning dojo.
 
 ## Envirnonment 
 Part of this solution will run on a raspberry Pi connected to 
