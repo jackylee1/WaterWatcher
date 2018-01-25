@@ -18,14 +18,14 @@ The goals are
 
 ## Terms and Abbreviations
 
-The following list gives you an overview of terms and abbreviations commonly used in OFT documents.
+The following list gives you an overview of terms and abbreviations commonly used in WW documents.
 
   * AWS: Amazon Web Services 
-  * OFT - Open Fast Trace - A requirement tracing tool which professionally traces (in all documents of a project) if requirements are done. "aka covered". Se more here:   
+  * OFT - Open Fast Trace - A requirement tracing tool which professionally traces (in all documents of a project) if requirements are done. "aka covered". See more here:   
   * WW - WaterWatcher - This project 
-  Because this project wants to try out the requirement tracing toolikt by the team of https://github.com/itsallcode/openfasttrace you we'll find engineering documents that follow the features requirements and tests of this solution throughout this repository. If I succeed in doing so. 
+  Because this project wants to try out the requirement tracing toolikt by the team of https://github.com/itsallcode/openfasttrace you we'll find engineering documents that follow the features requirements and tests of this solution throughout this repository - if I succeed in doing so. 
   
-  
+ 
   
 
 # Features
@@ -71,7 +71,7 @@ Needs: req
 WW shall be build with security and privacy in mind. 
 
 
-LÖist to be worked in here: 
+List of items to be worked in here: 
 - Awareness of working modes
 - Local Watchdog
 - CLoud based heartbeat 
