@@ -13,9 +13,9 @@ The goals are:
   * Effective - In case of a broken pipe an alarm-eMail won't do the job. It shall close the main water supply. 
   * Fun - Therefore this project will serve as my private software engineering learning dojo.
 
-## Envirnonment 
+## Environment 
 Part of this solution will run on a raspberry Pi connected to 
-* a water clock with a reed contact and 
+* a water clock with a reed sensor and 
 * a valve, installed in the main water supply pipe. 
 * The internet via WiFi 
 The water clock and the valve are both real HW installed by a professional plumber - so you need to calculate ~300€ costs for this.  
