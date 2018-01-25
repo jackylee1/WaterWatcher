@@ -56,13 +56,9 @@ See what is going on...
 
 Needs: req
 
-## Anmaly detection 
-`feat~anomalyt~detection~1
-
-WW shall notice anomalies in the water consumption. At the very latest a sudden raise in consumption based on a broken pipe and a small continous leak shall be detected.
-
-Rationale:
-Manual setting bounaries may work but a system that can learn from the normal consumption and then derive intelligence for a deviation should prove more user friendly. 
+## Anomaly detection 
+`feat~anomaly~detection~1`
+WW shall notice anomalies in the water consumption. A sudden extreme increase in consumption based on a broken pipe and a small continous leak shall be detected at the very basic function. 
 
 Needs: req
 
@@ -72,14 +68,18 @@ Needs: req
 WW shall be build with security and privacy in mind. 
 
 
+## Draft
 List of items to be worked in here: 
 - Awareness of working modes
-- Local Watchdog
-- CLoud based heartbeat 
+- Local HW watchdog
+- Cloud based heartbeat 
 - Backup 
 - Valve self-test once a month with report 
 - Calculate statistics values (consumption per month) 
 - Integarte additrional sensors (someone in th house, ...) 
 - Notification challes (local and clodu based) 
-- Reliability configured system 
+- Reliability configured system for 24/7 operation
+- Automatically active after hard reboot and power outtake 
+- 
+
 
