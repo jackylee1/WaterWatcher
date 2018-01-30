@@ -1,0 +1,46 @@
+{
+  "name": "WaterWatcher",
+  "version": "0.0.1",
+  "license": "GPL-2.0",
+  "scripts": {
+    "semantic-release-pre": "semantic-release pre",
+    "semantic-release-post": "semantic-release post",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@krux/condition-jenkins": "1.0.1",
+    "commitizen": "2.9.6",
+    "last-release-git": "0.0.3",
+    "semantic-release": "7.0.2",
+    "conventional-changelog": "1.1.4",
+    "conventional-changelog-cli": "1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarterbit/WaterWatcher.git"
+  },
+  "release": {
+    "getLastRelease": "last-release-git",
+    "githubUrl": "https://github.com",
+    "githubApiPathPrefix": "/api/v3/",
+    "branch": "develop",
+    "verifyConditions": {
+      "path": "./node_modules/@krux/condition-jenkins"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "author": "quaterbit",
+  "publisher": "quaterbit",
+  "engines": {
+    "node": ">=7.0.0",
+    "npm": ">= 3.10.8",
+    "vscode": "npm"
+  },
+  "dependencies": {
+    "find-up": "^2.1.0"
+  }
+}
